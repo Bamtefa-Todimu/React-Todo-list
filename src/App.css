@@ -1,0 +1,19 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Josefin Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+.site-container {
+  max-width: 1440px;
+  position: relative;
+  margin: 0 auto;
+  padding: 5.5rem 1rem;
+  display: flex;
+  justify-content: center;
+}

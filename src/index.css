@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* @font-face {
+  font-family: siteFont;
+  src: url("https://fonts.google.com/specimen/Josefin+Sans");
+} */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Josefin Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  background-color: black;
+}
